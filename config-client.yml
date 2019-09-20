@@ -3,6 +3,7 @@
     active:
     - dev #当前使用的环境
 ---
+content: dev content 刷新坏了
 server:
   port: 6001
 spring:
@@ -14,6 +15,7 @@ eureka:
     service-url:
       defaultZone: http://eureka01.com:1001/eureka/
 ---
+content: test content
 server:
   port: 6002
 spring:
