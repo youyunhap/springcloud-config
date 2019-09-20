@@ -3,7 +3,7 @@
     active:
     - dev #当前使用的环境
 ---
-content: dev content 刷新坏了
+content: dev content 刷新好了 哈哈哈哈哈
 server:
   port: 6001
 spring:
