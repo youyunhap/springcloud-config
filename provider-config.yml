@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+    - dev # 当前使用的环境
+---
+content: dev content 刷新坏了
+spring:
+  profiles: dev #开发环境
+  application:
+    name: brand-provider
+---
+content: test content
+spring:
+  profiles: test #测试环境
+  application:
+    name: brand-provider
